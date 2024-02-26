@@ -6,7 +6,7 @@
 
 html {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #1328eb;
+    background-color: #ddd;
 }
 
 /*Todo o Body*/
@@ -31,7 +31,8 @@ header .cabecalho h3 {
 .nav ul {
     display: flex;
     width: 90%;
-    margin: 20px 0 20px 0;
+    margin: 20px auto;
+    text-align: center;
 }
 
 .nav ul li a {
@@ -62,11 +63,45 @@ main .main-container h1, h2{
 }
 
 main .main-container {
+    width: 93%;
     background-color: #3e6b4a;
     padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 15px;
 }
 
 main .main-container .eu {
     position: relative;
     text-align: center;
+}
+
+main .main-container .eu p a{
+    text-decoration: none;
+    color: #111;
+}
+
+/*Containers*/
+
+.a-container {
+    background-color: #894040;
+    width: 93%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+/*Experiência profissional*/
+
+section .exp-container {
+    text-align: center;
+}
+
+.a-container h1 {
+    text-align: center;
+    color: #ebbb13;
+    margin: 10px;
+}
+
+section .exp-container ul li {
+    list-style: none;
 }
