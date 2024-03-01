@@ -105,3 +105,21 @@ section .exp-container {
 section .exp-container ul li {
     list-style: none;
 }
+
+/*Educação*/
+
+.ed-container {
+    background-color: #3e6b4a;
+}
+
+/*Contacto*/
+
+.contact {
+    text-align: center;
+}
+
+/*Rodapé*/
+
+footer p {
+    text-align: center;
+}
