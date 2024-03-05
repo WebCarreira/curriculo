@@ -1,3 +1,3 @@
-function hidden () {
-    
+function visivel () {
+    getElementById
 }

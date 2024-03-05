@@ -112,17 +112,35 @@ section .exp-container h3 {
     margin-bottom: 5px;
 }
 
+/*Temas Profissões*/
+
 .bvp, .fozpost, .takereality, .ctt, .pataletas, .armazem {
     position: relative;
-    display: flex;
     padding: 5px;
-    /*margin: 10px auto;*/
     margin: 5px;
     width: 500px;   
 }
 
+/*Identificação das empresas*/
+
+.bvp-title, .fozpost-title, .takereality-title, .ctt-title, .pataletas-title, .armazem-title {
+    border: 1px solid #3e6b4a;
+}
+
+.bvp-title:hover, .fozpost-title:hover, .takereality-title:hover, .ctt-title:hover, .pataletas-title:hover, .armazem-title:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+/*Descrição das funções*/
+
 .funcao_bvp, .funcao_fozpost, .funcao_takereality, .funcao_ctt, .funcao_pataletas, .funcao_armazem {
     border: 1px solid black;
+    display: none;
+}
+
+.funcao_bvp:onClick, .funcao_fozpost:onClick, .funcao_takereality:onClick, .funcao_ctt:onClick, .funcao_pataletas:onClick, .funcao_armazem:onClick {
+    display: flex;
 }
 
 /*Educação*/
