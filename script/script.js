@@ -1,3 +1,3 @@
 function visivel () {
-    getElementById
+    innerHTML.Style
 }
