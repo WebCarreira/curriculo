@@ -1,3 +1,4 @@
 function visivel () {
-    innerHTML.Style
+    const exp = window.document.querySelector(`section#acontainer`)
+    
 }
