@@ -114,7 +114,7 @@ section .exp-container h3 {
 
 /*Temas Profissões*/
 
-.bvp, .fozpost, .takereality, .ctt, .pataletas, .armazem {
+.bvp, .fozpost, .takereality, .ctt, .pataletas, .armazem, .formacao {
     position: relative;
     padding: 5px;
     margin: 5px;
@@ -123,23 +123,23 @@ section .exp-container h3 {
 
 /*Identificação das empresas*/
 
-.bvp-title, .fozpost-title, .takereality-title, .ctt-title, .pataletas-title, .armazem-title {
+.bvp-title, .fozpost-title, .takereality-title, .ctt-title, .pataletas-title, .armazem-title, .formacao-title {
     border: 1px solid #3e6b4a;
 }
 
-.bvp-title:hover, .fozpost-title:hover, .takereality-title:hover, .ctt-title:hover, .pataletas-title:hover, .armazem-title:hover{
+.bvp-title:hover, .fozpost-title:hover, .takereality-title:hover, .ctt-title:hover, .pataletas-title:hover, .armazem-title:hover, .formacao-title:hover{
     background-color: #ddd;
     cursor: pointer;
 }
 
 /*Descrição das funções*/
 
-.funcao_bvp, .funcao_fozpost, .funcao_takereality, .funcao_ctt, .funcao_pataletas, .funcao_armazem {
+.funcao_bvp, .funcao_fozpost, .funcao_takereality, .funcao_ctt, .funcao_pataletas, .funcao_armazem, .temas-formacao {
     border: 1px solid black;
     display: none;
 }
 
-.funcao_bvp:onClick, .funcao_fozpost:onClick, .funcao_takereality:onClick, .funcao_ctt:onClick, .funcao_pataletas:onClick, .funcao_armazem:onClick {
+.funcao_bvp:onClick, .funcao_fozpost:onClick, .funcao_takereality:onClick, .funcao_ctt:onClick, .funcao_pataletas:onClick, .funcao_armazem:onClick, .temas-formacao:onClick {
     display: flex;
 }
 
