@@ -30,6 +30,7 @@ header .cabecalho h3 {
 
 .nav ul {
     display: flex;
+    position: sticky;
     width: 90%;
     margin: 20px auto;
     text-align: center;
