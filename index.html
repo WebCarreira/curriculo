@@ -10,7 +10,7 @@
 <body>
     <section class="all-container">
         <!--Cabeçalho-->
-        <header>
+        <header class="site-header">
             <section class="cabecalho">
                 <!--
                 <div>
@@ -21,13 +21,13 @@
                 <section>
                     <nav class="nav">
                         <ul>
-                            <li><a href="#">Sobre Mim</a></li>
-                            <li><a href="#">Experiência Profissional</a></li>
-                            <li><a href="#">Educação</a></li>
-                            <li><a href="#">Habilidades Técnicas</a></li>
-                            <li><a href="#">Idiomas</a></li>
-                            <li><a href="#">Projectos Pessoais</a></li>
-                            <li><a href="#">Contactar</a></li>
+                            <li><a href="#sobre-mim">Sobre Mim</a></li>
+                            <li><a href="#experiencia-profissional">Experiência Profissional</a></li>
+                            <li><a href="#educacao">Educação</a></li>
+                            <li><a href="#habilidades-tecnicas">Habilidades Técnicas</a></li>
+                            <li><a href="#idiomas">Idiomas</a></li>
+                            <li><a href="#projectos-pessoais">Projectos Pessoais</a></li>
+                            <li><a href="#mensagem">Contactar</a></li>
                         </ul>
                     </nav>
                 </section>
@@ -35,7 +35,7 @@
         </header>
         <!--Sobre Mim-->
         <main>
-            <section class="main-container">
+            <section class="main-container" id="sobre-mim">
                 <h1>Sobre Mim</h1>
                 <div class="eu">
                     <p>Nome: Diogo Batista Carreira</p>
@@ -52,10 +52,10 @@
             </section>
         </main>
         <!--Experiência Formativa-->
-        <section class="a-container" id="a-container">
+        <section class="a-container" id="experiencia-formativa">
             <h1>Experiência Formativa</h1>
             <section class="exp-container formacao">
-                <h3 class="formacao-title">Formador UFCD 0778 - Folha de Cálculo Básico (50h) | Primeatlantic - Investimentos e Gestão Lda | Abril 2024 - Maio 2024</h3>
+                <h3 class="formacao-title" onclick="toggleList(this)">Formador UFCD 0778 - Folha de Cálculo Básico (50h) | Primeatlantic - Investimentos e Gestão Lda | Abril 2024 - Maio 2024</h3>
                 <div class="temas-formacao" id="temas-formacao">
                     <ul>
                         <li>Folha de Cálculo - Conceitos Gerais</li>
@@ -73,10 +73,10 @@
             </section>
         </section>
         <!--Experiência Profissional-->
-        <section class="a-container" id="a-container">
+        <section class="a-container" id="experiencia-profissional">
             <h1>Experiência Profissional</h1>
             <section class="exp-container formacao">
-                <h3 class="formacao-title">Formador UFCD 0778 - Folha de Cálculo Básico (50h) | Primeatlantic - Investimentos e Gestão Lda | Abril 2024 - Maio 2024</h3>
+                <h3 class="formacao-title" onclick="toggleList(this)">Formador UFCD 0778 - Folha de Cálculo Básico (50h) | Primeatlantic - Investimentos e Gestão Lda | Abril 2024 - Maio 2024</h3>
                 <div class="temas-formacao" id="temas-formacao">
                     <ul>
                         <li>Folha de Cálculo - Conceitos Gerais</li>
@@ -93,7 +93,7 @@
                 </div>
             </section>
             <section class="exp-container bvp">
-                <h3 class="bvp-title">Bombeiro Profissional | A. H. B. V. Pombal | Julho 2023 - Presente</h3>
+                <h3 class="bvp-title" onclick="toggleList(this)">Bombeiro Profissional | A. H. B. V. Pombal | Julho 2023 - Presente</h3>
                 <div class="funcao_bvp" id="funcao_bvp">
                     <ul>
                         <li>Motorista/Socorrista de ambulância de socorro</li>
@@ -103,7 +103,7 @@
                 </div>
             </section>
             <section class="exp-container fozpost">
-                <h3 class="fozpost-title">Estafeta | FozPost Lda | Março 2022 - Junho 2023</h3>
+                <h3 class="fozpost-title" onclick="toggleList(this)">Estafeta | FozPost Lda | Março 2022 - Junho 2023</h3>
                 <div class="funcao_fozpost" id="funcao_fozpost">
                     <ul>
                         <li>Descarregar as carrinhas que chegavam com a mercadoria para distribuir</li>
@@ -117,7 +117,7 @@
                 </div>
             </section>
             <section class="exp-container takereality">
-                <h3 class="takereality-title">Gerente | TakeReality unip. Lda | Dezembro 2016 - Fevereiro 2022</h3>
+                <h3 class="takereality-title" onclick="toggleList(this)">Gerente | TakeReality unip. Lda | Dezembro 2016 - Fevereiro 2022</h3>
                 <div class="funcao_takereality" id="funcao_takereality">
                     <ul>
                         <li>Gestão de toda a empresa</li>
@@ -133,7 +133,7 @@
                 </div>
             </section>
             <section class="exp-container ctt">
-                <h3 class="ctt-title">Carteiro | CTT Correios de Portugal Lda | Junho 2015 - Junho 2016</h3>
+                <h3 class="ctt-title" onclick="toggleList(this)">Carteiro | CTT Correios de Portugal Lda | Junho 2015 - Junho 2016</h3>
                 <div class="funcao_ctt" id="funcao_ctt">
                     <ul>
                         <li>Divisão de encomendas em armazém por giro</li>
@@ -144,7 +144,7 @@
                 </div>
             </section>
             <section class="exp-container pataletas">
-                <h3 class="pataletas-title">Bombeiro Profissional | A. H. B. V. Pombal | 2009 - 2015</h3>
+                <h3 class="pataletas-title" onclick="toggleList(this)">Bombeiro Profissional | A. H. B. V. Pombal | 2009 - 2015</h3>
                 <div class="funcao_pataletas" id="funcao_pataletas">
                     <ul>
                         <li>Motorista de ambulância de transporte de doentes não urgentes</li>
@@ -153,7 +153,7 @@
                 </div>
             </section>
             <section class="exp-container armazem">
-                <h3 class="armazem-title">Técnico de Armazém & Serviço Pós-Venda | Rádio Popular de Leiria | 2008 - 2009</h3>
+                <h3 class="armazem-title" onclick="toggleList(this)">Técnico de Armazém & Serviço Pós-Venda | Rádio Popular de Leiria | 2008 - 2009</h3>
                 <div class="funcao_armazem" id="funcao_armazem">
                     <ul>
                         <li>Carga e descarga de mercadoria com empilhador eléctrico</li>
@@ -165,12 +165,11 @@
             </section>
         </section>
         <!--Educação-->
-        <section class="a-container ed-container">
+        <section class="a-container ed-container" id="educacao">
             <h1>Educação</h1>
             <section class="e-container">
-                <h3>Curso Técnico de Electrónica/Comando | Etap - Escola Tecnológica e Artística de Pombal | 2004 - 2007</h3>
+                <h3 >Curso Técnico de Electrónica/Comando | Etap - Escola Tecnológica e Artística de Pombal | 2004 - 2007</h3>
                 <ul>
-                    <li>Média de curso: 14/20</li>
                     <li>Projetos relevantes: Desenvolvimento de um carro robot que detecta e desvia-se de obstáculos 
                         e sinaliza vítimas num determinado percurso.</li>
                 </ul>
@@ -301,7 +300,7 @@
             </section>
         </section>
         <!--Habilidades Técnicas-->
-        <section class="a-container">
+        <section class="a-container" id="habilidades-tecnicas">
             <h1>Habilidades Técnicas</h1>
             <ul>
                 <li>Linguagens de Programação: JavaScript, HTML5, CSS3.</li>
@@ -313,7 +312,7 @@
             </ul>
         </section>
         <!--Idiomas-->
-        <section class="a-container ed-container">
+        <section class="a-container ed-container" id="idiomas">
             <h1>Idiomas</h1>
             <ul>
                 <li>Português (Nativo)</li>
@@ -321,7 +320,7 @@
             </ul>
         </section>
         <!--Projectos pessoais-->
-        <section class="a-container">
+        <section class="a-container" id="projectos-pessoais">
             <h1>Projectos Pessoais</h1>
             <section class="personal-project">
                 <h3>Controlo de Verificação de Viaturas</h3>
@@ -341,7 +340,7 @@
             </section>
         </section>
         <!--Contactar-->
-        <section class="contact a-container ed-container">
+        <section class="contact a-container ed-container" id="mensagem">
             <h1>Mensagem</h1>
             <form action="#" method="POST">
                 <div>

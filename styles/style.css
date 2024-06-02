@@ -7,7 +7,10 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ddd;
+    scroll-behavior: smooth;
 }
+
+
 
 /*Todo o Body*/
 .all-container {
@@ -24,13 +27,21 @@ header .cabecalho h3 {
     margin-bottom: 30px;
 }
 
+.site-header {
+    position: fixed;
+    width: 100%;
+    background-color: #894040;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
 .nav ul li {
     list-style: none;
 }
 
 .nav ul {
     display: flex;
-    position: sticky;
     width: 90%;
     margin: 20px auto;
     text-align: center;
@@ -135,9 +146,13 @@ section .exp-container h3 {
 
 /*Descrição das funções*/
 
-.funcao_bvp, .funcao_fozpost, .funcao_takereality, .funcao_ctt, .funcao_pataletas, .funcao_armazem, .temas-formacao {
+.funcao_bvp ul, .funcao_fozpost ul, .funcao_takereality ul, .funcao_ctt ul, .funcao_pataletas ul, .funcao_armazem ul, .temas-formacao ul {
     border: 1px solid black;
     display: none;
+}
+
+.funcao_bvp ul.visible, .funcao_fozpost ul.visible, .funcao_takereality ul.visible, .funcao_ctt ul.visible, .funcao_pataletas ul.visible, .funcao_armazem ul.visible, .temas-formacao ul.visible {
+    display: block;
 }
 
 .funcao_bvp:onClick, .funcao_fozpost:onClick, .funcao_takereality:onClick, .funcao_ctt:onClick, .funcao_pataletas:onClick, .funcao_armazem:onClick, .temas-formacao:onClick {
